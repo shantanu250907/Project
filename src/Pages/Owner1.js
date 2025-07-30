@@ -15,8 +15,6 @@ export default function HomePage() {
   const handleSearch = () => {
     if (selectedCity === "Nashik") {
       navigate('/Search');
-    } else if (selectedCity === "Dhule") {
-      navigate('/Searchh');
     } else if (selectedCity === "Mumbai") {
       navigate('/Searchm');
     }
@@ -48,7 +46,6 @@ export default function HomePage() {
               <option>Select City</option>
                 <option value="Nashik">Nashik</option>
                 <option value="Mumbai">Mumbai</option>
-                <option value="Dhule">Dhule</option>
               </Form.Select>
 
               <InputGroup className="glass-search d-flex align-items-center p-1 rounded">
