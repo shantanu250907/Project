@@ -1,0 +1,107 @@
+ 
+.page-container {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(53, 50, 50, 0.251);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #01d3ea;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 14px 35px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* .owner-btn {
+  background: linear-gradient(to right, #042d50, #14979e);
+  color: white;
+}
+
+.tenant-btn {
+  background: linear-gradient(to right, #07431b, #1d9e87); 
+  color: white;
+} */
+ .owner-btn {
+  background-color: #037af8;
+  color: white;
+  font-weight: bold;
+}
+.tenant-btn {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+  z-index: 2;
+  font-weight: 500;
+  text-shadow: 1px 1px 5px #000;
+}
