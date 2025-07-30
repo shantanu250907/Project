@@ -10,7 +10,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914'); 
+  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c'); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -32,7 +32,7 @@
 .hero-content {
   position: relative;
   z-index: 2;
-  color: #01d3ea;
+  color: #eef2f2;
   max-width: 700px;
   padding: 20px;
 }

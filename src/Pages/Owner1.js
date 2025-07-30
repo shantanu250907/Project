@@ -29,7 +29,7 @@ export default function HomePage() {
           <source src={vid} type="video/mp4" />
         </video>
         <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
-        <Container className="hero-content position-absolute top-50 bottom-0 start-50 translate-middle text-center text-white px-3">
+        <Container className="hero-content position-absolute top-50 start-50 translate-middle text-center text-white px-3">
           <h1 className="dd">Find Your Future Dream Home</h1>
           <div className="d-flex justify-content-center mb-3">
             <Button className="btn-danger me-2">Buy</Button>

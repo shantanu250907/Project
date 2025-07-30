@@ -1,9 +1,9 @@
 
 /* Video Hero Section */
 .video-hero {
-  position: relative;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
 .video-hero video {
@@ -13,7 +13,8 @@
 }
 
 .hero-overlay {
-  background: rgba(245, 245, 245, 0);
+  background: rgba(4, 4, 4, 0.05);
+  z-index: 1;
 }
 
 .hero-content {
@@ -33,7 +34,7 @@
 
 .btn-hero {
   background-color: #ef653b;
-  color: white;
+  color: rgba(255, 255, 255, 0.141);
   font-weight: bold;
   padding: 8px 20px;
   border-radius: 25px;
