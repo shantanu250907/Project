@@ -5,12 +5,278 @@ import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Search = () => {
-    const [selectedBHK, setSelectedBHK] = useState('');
+    const [selectedBHK, setSelectedBHK] = useState('All');
     const handleSelect = (type) => {
         setSelectedBHK(type);
     };
 
     const propertyData = {
+        "All":[
+            {
+                 id: 1,
+                title:
+                    <label>1 RK Flat, In Sai Villa Apartment for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Sai Villa , Govind Nagar Near Prakash Petrol Pump, Nashik</h6>
+                    </label>,
+                images: [
+
+                    "https://images.nobroker.in/images/8a9fa28497e86b4b0197e8fa25ea4015/8a9fa28497e86b4b0197e8fa25ea4015_62427_831677_medium.jpg",
+                    "https://images.nobroker.in/images/8a9f8c8390b459960190b46f694b025f/8a9f8c8390b459960190b46f694b025f_60245_695971_medium.jpg",
+                    "https://images.nobroker.in/images/8a9f8c8390b459960190b46f694b025f/8a9f8c8390b459960190b46f694b025f_98726_966558_medium.jpg",
+                    "https://images.nobroker.in/images/8a9f8c8390b459960190b46f694b025f/8a9f8c8390b459960190b46f694b025f_46020_141717_medium.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            marginRight: '1px',
+                            justifyContent: 'space-between',
+                            backgroundColor: '#f9f9f9',
+                            padding: '1px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd',
+                            height: '70px',
+
+                        }}>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold', }}>₹10,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666', }}>Rent</div>
+                            </div>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold', }}>₹40,000</div>
+                                <div style={{ fontSize: '12px', color: '#666', }}>Deposit</div>
+                            </div>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold', }}>1000 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+
+                                }}>
+                                    Book Now!
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 2,
+                title:
+                    <label>1 BHK Flat, In Siddhhivinayak Apartment For Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Siddhhivinayak, Renuka Nagar, Near Mahamarg Bus-Stand, Mumbai Naka, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9fa2849823a43c019823b795f90390/8a9fa2849823a43c019823b795f90390_69980_379772_large.jpg",
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_3643_460080_medium.jpg",
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_4632_726792_medium.jpg",
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_31812_206171_medium.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹12,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹40,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1000 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 2.2,
+                title:
+                    <label>1 BHK Flat, In Abhishek Apartment For Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Abhishek, Renuka Nagar, Near Mahamarg Bus-Stand, Mumbai Naka, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_16552_262615_large.jpg",
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_13401_530658_large.jpg",
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_47266_64380_large.jpg",
+                    "https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_89487_757318_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹13,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹30,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1100 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 3.3,
+                title:
+                    <label>2 BHK Flat, in Krishnapranit Apartment for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Krishnapranit, Mhasrul Road, Green Cannel, Near Forest Office, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9f9187980d8f5c01980dc8e2ad18a8/8a9f9187980d8f5c01980dc8e2ad18a8_96223_718539_medium.jpg",
+                    "https://images.nobroker.in/images/8a9fae8897ee18de0197ee3132d309e2/8a9fae8897ee18de0197ee3132d309e2_92479_77835_large.jpg",
+                    "https://images.nobroker.in/images/8a9fae8897ee18de0197ee3132d309e2/8a9fae8897ee18de0197ee3132d309e2_53078_685155_large.jpg",
+                    "https://images.nobroker.in/images/8a9fae8897ee18de0197ee3132d309e2/8a9fae8897ee18de0197ee3132d309e2_94791_539548_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹20,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹80,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1200 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 4.3,
+                title:
+                    <label>3 BHK Flat, in Tulsi Aastha Apartment for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Tulsi Aastha, Near Power House, Old Cannel, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9ff88489bad5cb0189bb4dd34351b3/8a9ff88489bad5cb0189bb4dd34351b3_37878_392506_large.jpg",
+                    "https://images.nobroker.in/images/8a9ff88489bad5cb0189bb4dd34351b3/8a9ff88489bad5cb0189bb4dd34351b3_485462_41378_large.jpg",
+                    "https://images.nobroker.in/images/8a9ff88489bad5cb0189bb4dd34351b3/8a9ff88489bad5cb0189bb4dd34351b3_609066_343266_large.jpg",
+                    "https://images.nobroker.in/images/8a9ff88489bad5cb0189bb4dd34351b3/8a9ff88489bad5cb0189bb4dd34351b3_80926_225894_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹35,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹1,30,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1300+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+        ],
         "1 RK": [
             {
                 id: 1,
@@ -464,11 +730,6 @@ const Search = () => {
                         </div>
                     </>
             },
-
-
-
-
-
 
         ],
         "1 BHK": [
@@ -2659,6 +2920,12 @@ const Search = () => {
                         <div className="container" style={{ marginTop: 15 }}>
                             <div className="row g-2" >
                                 <div className="col-4">
+                                    <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
+                                        checked={selectedBHK === "All"}
+                                        onChange={() => handleSelect("All")} />
+                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none' }}>All</label>
+                                </div>
+                                <div className="col-4">
                                     <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off"
                                         checked={selectedBHK === "1 RK"}
                                         onChange={() => handleSelect("1 RK")} />
@@ -2701,8 +2968,6 @@ const Search = () => {
                     </div>
                 </div>
                 <div className='ss'>
-
-
 
                 </div>
 
