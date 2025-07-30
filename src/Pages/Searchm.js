@@ -53,16 +53,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -110,16 +110,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -167,16 +167,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -223,16 +223,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -279,16 +279,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -335,16 +335,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -388,16 +388,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -444,16 +444,16 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link>
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
                         </div>
                     </>
             },
@@ -504,17 +504,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -557,17 +557,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -610,17 +610,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -663,17 +663,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -716,17 +716,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -769,17 +769,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -822,17 +822,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -875,17 +875,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -928,17 +928,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -981,17 +981,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1037,17 +1037,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1090,17 +1090,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1143,17 +1143,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1196,17 +1196,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1250,17 +1250,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1303,17 +1303,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1325,10 +1325,10 @@ const Searchm = () => {
                         <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Sagar Heights, Near Podar Climbing Wall, Telang Road, Matunga, Mumbai</h6>
                     </label>,
                 images: [
-                   "https://tse1.mm.bing.net/th/id/OIP.X2-7HQfZX22KwNGza2vpkgHaFj?pid=Api&P=0&h=220",
-                   "https://images.nobroker.in/images/8a9fe9828890e59e01889159816f4044/8a9fe9828890e59e01889159816f4044_30269_22421_large.jpg",
-                   "https://images.nobroker.in/images/8a9fe9828890e59e01889159816f4044/8a9fe9828890e59e01889159816f4044_2055_921026_large.jpg",
-                   "https://images.nobroker.in/images/8a9fe9828890e59e01889159816f4044/8a9fe9828890e59e01889159816f4044_16177_998156_large.jpg",
+                    "https://tse1.mm.bing.net/th/id/OIP.X2-7HQfZX22KwNGza2vpkgHaFj?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/8a9fe9828890e59e01889159816f4044/8a9fe9828890e59e01889159816f4044_30269_22421_large.jpg",
+                    "https://images.nobroker.in/images/8a9fe9828890e59e01889159816f4044/8a9fe9828890e59e01889159816f4044_2055_921026_large.jpg",
+                    "https://images.nobroker.in/images/8a9fe9828890e59e01889159816f4044/8a9fe9828890e59e01889159816f4044_16177_998156_large.jpg",
                 ],
                 description:
                     <>
@@ -1356,17 +1356,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1409,17 +1409,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1431,10 +1431,10 @@ const Searchm = () => {
                         <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Samrat Heights, Maharshi Karve Road, Near Church Gate Station, Mumbai</h6>
                     </label>,
                 images: [
-                   "https://tse2.mm.bing.net/th/id/OIP.qx1XXtGrv1UvzC_o4vrfxgAAAA?pid=Api&P=0&h=220",
-                   "https://images.nobroker.in/images/ff8081814ffe57bd015014b4b87807e8/ff8081814ffe57bd015014b4b87807e8_91914_895755_large.jpg",
-                   "https://images.nobroker.in/images/ff8081814ffe57bd015014b4b87807e8/ff8081814ffe57bd015014b4b87807e8_121545_539720_large.jpg",
-                   "https://images.nobroker.in/images/ff80818169a9ea980169b29d68783c78/ff80818169a9ea980169b29d68783c78_80886_965761_large.jpg",
+                    "https://tse2.mm.bing.net/th/id/OIP.qx1XXtGrv1UvzC_o4vrfxgAAAA?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/ff8081814ffe57bd015014b4b87807e8/ff8081814ffe57bd015014b4b87807e8_91914_895755_large.jpg",
+                    "https://images.nobroker.in/images/ff8081814ffe57bd015014b4b87807e8/ff8081814ffe57bd015014b4b87807e8_121545_539720_large.jpg",
+                    "https://images.nobroker.in/images/ff80818169a9ea980169b29d68783c78/ff80818169a9ea980169b29d68783c78_80886_965761_large.jpg",
                 ],
                 description:
                     <>
@@ -1462,17 +1462,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1516,17 +1516,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1573,17 +1573,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1626,17 +1626,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1679,17 +1679,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1732,17 +1732,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1786,17 +1786,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1808,10 +1808,10 @@ const Searchm = () => {
                         <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Mhadha Building, Makhmalabad Road, Near North-Point School Mumbai</h6>
                     </label>,
                 images: [
-                   "https://tse1.mm.bing.net/th/id/OIF.vyP397W6R2ao1ESqJnNPPQ?pid=Api&P=0&h=220",
-                   "https://images.nobroker.in/images/8a9f974492287325…4492287325019228a79abf103e_75552_697326_large.jpg",
-                   "https://images.nobroker.in/images/8a9f974492287325019228a79abf103e/8a9f974492287325019228a79abf103e_3256_791534_large.jpg",
-                   "https://images.nobroker.in/images/8a9f974492287325019228a79abf103e/8a9f974492287325019228a79abf103e_1747_148232_large.jpg",
+                    "https://tse1.mm.bing.net/th/id/OIF.vyP397W6R2ao1ESqJnNPPQ?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/8a9f974492287325…4492287325019228a79abf103e_75552_697326_large.jpg",
+                    "https://images.nobroker.in/images/8a9f974492287325019228a79abf103e/8a9f974492287325019228a79abf103e_3256_791534_large.jpg",
+                    "https://images.nobroker.in/images/8a9f974492287325019228a79abf103e/8a9f974492287325019228a79abf103e_1747_148232_large.jpg",
                 ],
                 description:
                     <>
@@ -1839,17 +1839,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1892,17 +1892,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1914,10 +1914,10 @@ const Searchm = () => {
                         <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Aristo Residency, Sayani Road, Prabhadevi, Mumbai</h6>
                     </label>,
                 images: [
-                   "https://tse3.mm.bing.net/th/id/OIP.pumKx4ngndXkwRslrLp12AHaEo?pid=Api&P=0&h=220",
-                   "https://images.nobroker.in/images/8a9f8fc392038403019203a8da6c0a88/8a9f8fc392038403019203a8da6c0a88_834276_35664_large.jpg",
+                    "https://tse3.mm.bing.net/th/id/OIP.pumKx4ngndXkwRslrLp12AHaEo?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/8a9f8fc392038403019203a8da6c0a88/8a9f8fc392038403019203a8da6c0a88_834276_35664_large.jpg",
                     "https://images.nobroker.in/images/8a9f8fc392038403019203a8da6c0a88/8a9f8fc392038403019203a8da6c0a88_245640_802025_large.jpg",
-                   "https://images.nobroker.in/images/8a9f8fc392038403019203a8da6c0a88/8a9f8fc392038403019203a8da6c0a88_617407_479165_large.jpg",
+                    "https://images.nobroker.in/images/8a9f8fc392038403019203a8da6c0a88/8a9f8fc392038403019203a8da6c0a88_617407_479165_large.jpg",
                 ],
                 description:
                     <>
@@ -1945,17 +1945,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -1998,17 +1998,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2052,17 +2052,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2108,17 +2108,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2134,7 +2134,7 @@ const Searchm = () => {
                     "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_47438_417341_large.jpg",
                     "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_83798_445491_large.jpg",
                     "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_7226_827414_large.jpg",
-                    
+
                 ],
                 description:
                     <>
@@ -2162,17 +2162,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2215,17 +2215,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2269,17 +2269,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2323,17 +2323,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2377,17 +2377,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2433,17 +2433,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2486,17 +2486,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2539,17 +2539,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2592,17 +2592,17 @@ const Searchm = () => {
                         </div>
                         <div style={{ textAlign: 'left', marginTop: '15px' }}>
                             <Link to='/Booknow' >
-                            <Link to='/Booknow' >
-                                                        <button style={{
-                                                            backgroundColor: 'red',
-                                                            color: 'white',
-                                                            border: 'none',
-                                                            padding: '10px 20px',
-                                                            borderRadius: '5px',
-                                                            cursor: 'pointer'
-                                                        }}>
-                                                            Book Now !
-                                                        </button></Link></Link>
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
                         </div>
                     </>
             },
@@ -2612,7 +2612,7 @@ const Searchm = () => {
     return (
         <>
             <div className="cc" style={{ display: 'flex', backgroundColor: '#F2F2F2', padding: '20px' }}>
-                <div className="card 0" style={{ width: 400, height: 550, minWidth: 400, minHeight: 550, maxWidth: 400, maxHeight: 550, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed' }}>
+                <div className="card 0" style={{ width: 400, height: 650, minWidth: 400, minHeight: 650, maxWidth: 400, maxHeight: 650, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed',marginTop:'15px' }}>
                     <div className="card-body">
                         <h6 style={{ marginTop: 1, fontFamily: "sans-serif" }}>Preferred Type</h6>
                         <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
@@ -2657,6 +2657,21 @@ const Searchm = () => {
                                 Gated Community Villa
                             </label>
                         </div>
+
+                         <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Availability</h6>
+                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                            <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
+                                Immediate
+                            </label>
+                            <div class="form-check" style={{ marginLeft: '30px' }}>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
+                                    Within 15 Days
+                                </label>
+                            </div>
+                        </div>
+
 
                         <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Furnishing</h6>
                         <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
