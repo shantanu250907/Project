@@ -75,7 +75,7 @@ export default function MainLayout() {
           <Navbar.Collapse className="justify-content-end">
             <Nav className="align-items-center gap-3">
               <Button size="sm" as={NavLink} to="/Owner1" style={{boxShadow:'none'}}>Home</Button>
-              <Button size="sm" as={NavLink} to="/Tenant1" style={{boxShadow:'nnone'}}>Tenant</Button>
+              <Button size="sm" as={NavLink} to="/Owner1" style={{boxShadow:'nnone'}}>Owner</Button>
               <Button size="sm" onClick={() => setShowLogin(true)} style={{boxShadow:'none'}}>Login</Button>
               <Button size="sm" onClick={() => setShowSignup(true)} style={{boxShadow:'none'}}>Sign Up</Button>
               <NavDropdown title="Menu">
@@ -93,6 +93,8 @@ export default function MainLayout() {
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Nav className="mx-auto gap-3">
+           
+           
             <Nav.Link as={NavLink} to="/gallery">Property Details</Nav.Link>
             <Nav.Link as={NavLink} to="/payments">Booking System</Nav.Link>
             <Nav.Link as={NavLink} to="/messages">Payment Integration</Nav.Link>

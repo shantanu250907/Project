@@ -26,6 +26,8 @@ import MainLayout from './Pages/MainLayout'; // ✅ Your layout with both navbar
 import HouseListing from './Pages/HouseListing';
 import Searchh from './Pages/Searchh';
 import Searchm from './Pages/Searchm';
+import Tenant1 from './Pages/Tenant1';
+
 import './Pages/Selling.css';
 
 
@@ -52,8 +54,9 @@ function App() {
           <Route path="/Welcome" element={<Dashboard />} />
            <Route path="/Searchh" element={<Searchh/>} />
             <Route path="/Searchm" element={<Searchm />} />
+            
         </Route>
-
+          <Route path="/Tenant1" element={<Tenant1/>}/>
         {/* 📊 Dashboard Routes with Sidebar */}
         <Route element={<DashboardLayout />}>
           <Route path="/dashboard" element={<DashboardHome />} />

@@ -62,7 +62,7 @@ const Search = () => {
                                 cursor: 'pointer'
 
                             }}>
-                                See More!
+                                Book Now!
                             </button>
                         </div>
                     </>

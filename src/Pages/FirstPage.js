@@ -14,8 +14,7 @@ export default function FirstPage() {
   };
 
   const handleTenantClick = () => {
-    setRole('tenant');
-    setShowModal(true);
+   navigate('/Tenant1');
   };
 
   const handleClose = () => {
@@ -42,14 +41,12 @@ export default function FirstPage() {
       </header>
 
       {/* Tenant Modal */}
-      <Modal show={showModal} onHide={handleClose} centered size="md">
+      {/* <Modal show={showModal} onHide={handleClose} centered size="md">
         <Modal.Header closeButton>
           <Modal.Title>Tenant Portal</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          <p className="text-center">Login & Signup functionality coming soon!</p>
-        </Modal.Body>
-      </Modal>
+        
+      </Modal> */}
     </div>
   );
 }
