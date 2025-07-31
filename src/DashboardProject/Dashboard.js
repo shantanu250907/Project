@@ -62,7 +62,7 @@ const COLORS = ['#8884d8', '#82ca9d', '#ff7979'];
 
 const DashboardHome = () => {
   return (
-    <div className="dashboard-container">
+    <div className="dashboard-container fade-slide">
       <div className="info-cards">
         {infoCards.map((card, idx) => (
           <div className="info-card" style={{ background: card.bg }} key={idx}>

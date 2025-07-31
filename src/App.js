@@ -8,6 +8,7 @@ import FirstPage from './Pages/FirstPage';
 import Owner1 from './Pages/Owner1';
 import Feedback from './Pages/Feedback';
 import AboutUs from './Pages/AboutUs';
+import './Pages/AboutUs.css';
 import GalleryPage from './Pages/GalleryPage';
 import Search from './Pages/Search';
 import Selling from "./Pages/Selling";
@@ -24,12 +25,11 @@ import PropertyListing from './DashboardProject/PropertyListing';
 import DashboardLayout from './DashboardProject/DashboardLayout';
 import MainLayout from './Pages/MainLayout'; // ✅ Your layout with both navbars
 import HouseListing from './Pages/HouseListing';
-import Searchh from './Pages/Searchh';
 import Searchm from './Pages/Searchm';
 import Tenant1 from './Pages/Tenant1';
 import Booknow from './Pages/Booknow';
-
 import './Pages/Selling.css';
+import './Pages/Booknow.css';
 
 
 function App() {
@@ -53,7 +53,6 @@ function App() {
           <Route path="/Search" element={<Search />} />
           <Route path="/sell" element={<Selling />} />
           <Route path="/Welcome" element={<Dashboard />} />
-           <Route path="/Searchh" element={<Searchh/>} />
             <Route path="/Searchm" element={<Searchm />} />
             <Route path="/Booknow" element={<Booknow />} />
             

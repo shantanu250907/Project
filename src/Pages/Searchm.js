@@ -5,12 +5,444 @@ import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Searchm = () => {
-    const [selectedBHK, setSelectedBHK] = useState('');
+    const [selectedBHK, setSelectedBHK] = useState('All');
     const handleSelect = (type) => {
         setSelectedBHK(type);
     };
 
     const propertyData = {
+        "All": [
+            {
+                id: 101,
+                title:
+                    <label>1 RK Flat, In Urban Nest Heights for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Urban Nest, ST Anthony Road, Bandra West, West Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://tse3.mm.bing.net/th/id/OIP.QD0yig-UDuCjPI5Yg5T-0wHaFj?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/8a9fc383893723b8018938f7d0cd4a87/8a9fc383893723b8018938f7d0cd4a87_33351_167001_large.jpg",
+                    "https://images.nobroker.in/images/8a9fc383893723b8018938f7d0cd4a87/8a9fc383893723b8018938f7d0cd4a87_49174_657777_large.jpg",
+                    "https://images.nobroker.in/images/8a9fc383893723b8018938f7d0cd4a87/8a9fc383893723b8018938f7d0cd4a87_31247_493719_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            marginRight: '1px',
+                            // width: '450px',
+                            justifyContent: 'space-between',
+                            // marginTop: '80px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '1px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd',
+                            // marginLeft: 'auto',
+                            height: '70px'
+                        }}>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold' }}>₹30,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold' }}>₹1,80,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold' }}>600 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 102,
+                title:
+                    <label>1 BHK Flat, In Siddhhivinayak Apartment For Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Siddhhivinayak, Renuka Nagar, Near Piramal Museum of Art, Byculla Galary, West Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://media.istockphoto.com/id/971919418/photo/growing-cities-in-india.jpg?s=612x612&w=0&k=20&c=CpEJox-JMhsFpwrRhKLGc-DG_FhyYrViaK91pj3rdcM=",
+                    "https://images.nobroker.in/images/8a9fbc8282a050c40182a09b1df436a0/8a9fbc8282a050c40182a09b1df436a0_98409_937561_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbc8282a050c40182a09b1df436a0/8a9fbc8282a050c40182a09b1df436a0_80445_666361_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbc8282a050c40182a09b1df436a0/8a9fbc8282a050c40182a09b1df436a0_10673_501348_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹35,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹1,50,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>800 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 103,
+                title:
+                    <label>3 BHK Flat, in Gurukrupa Alaknanda for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Gurukrupa Alaknanda, Airport Area, South West juhu, Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://tse3.mm.bing.net/th/id/OIP.PmDLBankLHMnIbNEZXbq1AHaFj?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/8a9fa78597cffb7a0197d060cf7b27db/8a9fa78597cffb7a0197d060cf7b27db_29036_265126_large.jpg",
+                    "https://images.nobroker.in/images/8a9fa78597cffb7a0197d060cf7b27db/8a9fa78597cffb7a0197d060cf7b27db_72574_501437_large.jpg",
+                    "https://images.nobroker.in/images/8a9fa78597cffb7a0197d060cf7b27db/8a9fa78597cffb7a0197d060cf7b27db_85943_764524_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹75,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹3,80,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1200+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 104,
+                title:
+                    <label>4 BHK Flat, in  Lodha World Crest for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}> Lodha World Crest,  Near Kamala Mills compound, Lower Parel West, Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9f8785974dfa7701974e400d6521f8/8a9f8785974dfa7701974e400d6521f8_11640_294387_large.jpg",
+                    "https://images.nobroker.in/images/8a9f8785974dfa7701974e400d6521f8/8a9f8785974dfa7701974e400d6521f8_21148_563721_large.jpg",
+                    "https://images.nobroker.in/images/8a9f8785974dfa7701974e400d6521f8/8a9f8785974dfa7701974e400d6521f8_8520_121134_large.jpg",
+                    "https://images.nobroker.in/images/8a9f8785974dfa7701974e400d6521f8/8a9f8785974dfa7701974e400d6521f8_38728_large.jpg",
+
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹90,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹5,50,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1,500 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 105,
+                title:
+                    <label>4 BHK Villa, in  Sunteck City for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Sunteck City, Near Ram Mandir Road, Goregaon West, Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_575266_629971_large.jpg",
+                    "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_47438_417341_large.jpg",
+                    "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_83798_445491_large.jpg",
+                    "https://images.nobroker.in/images/8a9f89839647484e0196476a51de0ed3/8a9f89839647484e0196476a51de0ed3_7226_827414_large.jpg",
+
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹92,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹5,25,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1,500 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 106,
+                title:
+                    <label>4 BHK Flat, in Prabhu City for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Prabhu City, Mumbai-Agra Road, Near Jatra Dhaba, Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_30086_157726_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_647683_528588_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_112550_858450_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_810350_44902_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹55,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹2,20,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1600+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 107,
+                title:
+                    <label>1 BHK Flat, In Omkar Residency For Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Omkar, Sitaram Patkar Road, Swami Vivekanand Marg, Goregaon East, Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://tse1.mm.bing.net/th/id/OIP.33RnTOjqCI_EUZSXjuTtIgHaEK?pid=Api&P=0&h=220",
+                    "https://images.nobroker.in/images/8a9f84839578dca90195793d70001a00/8a9f84839578dca90195793d70001a00_43653_461000_large.jpg",
+                    "https://images.nobroker.in/images/8a9f84839578dca90195793d70001a00/8a9f84839578dca90195793d70001a00_90906_853839_large.jpg",
+                    "https://images.nobroker.in/images/8a9f84839578dca90195793d70001a00/8a9f84839578dca90195793d70001a00_19604_408934_large.jpg"
+                    ,],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹48,500 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹3,00,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>750 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+             {
+                id: 108,
+                title:
+                    <label>4 BHK Flat, in Lodha Altamount Apartment for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Lodha Altamount, Opposite of Antilia (Ambani House) Gowalia Tank, Tardeo Road, Mumbai</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9f91859786a53c019786fb49df2475/8a9f91859786a53c019786fb49df2475_45608_350190_large.jpg",
+                    "https://images.nobroker.in/images/8a9f91859786a53c019786fb49df2475/8a9f91859786a53c019786fb49df2475_9539_954382_large.jpg",
+                    "https://images.nobroker.in/images/8a9f91859786a53c019786fb49df2475/8a9f91859786a53c019786fb49df2475_59452_399120_large.jpg",
+                    "https://images.nobroker.in/images/8a9f91859786a53c019786fb49df2475/8a9f91859786a53c019786fb49df2475_57493_80820_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹1,50,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹7,00,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1,300+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <Link to='/Booknow' >
+                                    <button style={{
+                                        backgroundColor: 'red',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '10px 20px',
+                                        borderRadius: '5px',
+                                        cursor: 'pointer'
+                                    }}>
+                                        Book Now !
+                                    </button></Link></Link>
+                        </div>
+                    </>
+            },
+
+        ],
         "1 RK": [
             {
                 id: 1,
@@ -2612,132 +3044,153 @@ const Searchm = () => {
     return (
         <>
             <div className="cc" style={{ display: 'flex', backgroundColor: '#F2F2F2', padding: '20px' }}>
-                <div className="card 0" style={{ width: 400, height: 650, minWidth: 400, minHeight: 650, maxWidth: 400, maxHeight: 650, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed',marginTop:'15px' }}>
-                    <div className="card-body">
-                        <h6 style={{ marginTop: 1, fontFamily: "sans-serif" }}>Preferred Type</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault"
-                            /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
-                                Family
-                            </label>
-                            &nbsp;&nbsp;
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style={{ marginLeft: 75 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
-                                Commercial
-                            </label>
-                        </div>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Bachelor Male
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 30 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Bachelor Female
-                            </label>
-                        </div>
-
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Property Type</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Apartment
-                            </label>
-                        </div>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Independent House/Villa
-                            </label>
-                        </div>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Gated Community Villa
-                            </label>
-                        </div>
-
-                         <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Availability</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                            <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
-                                Immediate
-                            </label>
-                            <div class="form-check" style={{ marginLeft: '30px' }}>
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
-                                <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
-                                    Within 15 Days
+                <div className="card 0" style={{ width: 400, height: 550, minWidth: 400, minHeight: 550, maxWidth: 400, maxHeight: 550, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed', marginTop: '10px' }}>
+                    <div className='scroll' style={{ height: '100%', overflowY: 'auto', paddingRight: '10px' }}>
+                        <div className="card-body">
+                            <h6 style={{ marginTop: 1, fontFamily: "sans-serif" }}>Preferred Type</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault"
+                                /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
+                                    Family
+                                </label>
+                                &nbsp;&nbsp;
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style={{ marginLeft: 75 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
+                                    Commercial
                                 </label>
                             </div>
-                        </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Bachelor Male
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 30 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Bachelor Female
+                                </label>
+                            </div>
 
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Property Type</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Apartment
+                                </label>
+                            </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Independent House/Villa
+                                </label>
+                            </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Gated Community Villa
+                                </label>
+                            </div>
 
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Furnishing</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Full
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Semi
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                None
-                            </label>
-                        </div>
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Furnishing</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Full
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Semi
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    None
+                                </label>
+                            </div>
 
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>BHK Type</h6>
-
-                        <div className="container" style={{ marginTop: 15 }}>
-                            <div className="row g-2" >
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off"
-                                        checked={selectedBHK === "1 RK"}
-                                        onChange={() => handleSelect("1 RK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck1" style={{ boxShadow: 'none' }}>1 RK</label>
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Availability</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
+                                    Immediate
+                                </label>
+                                <div class="form-check" style={{ marginLeft: '61px' }}>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                    <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
+                                        Within 15 Days
+                                    </label>
                                 </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
-                                        checked={selectedBHK === "1 BHK"}
-                                        onChange={() => handleSelect("1 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none' }}>1 BHK</label>
+                            </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
+                                    Within 30 Days
+                                </label>
+                                <div class="form-check" style={{ marginLeft: '30px' }}>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                    <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
+                                        After 30 Days
+                                    </label>
                                 </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck3" autoComplete="off"
-                                        checked={selectedBHK === "2 BHK"}
-                                        onChange={() => handleSelect("2 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck3" style={{ boxShadow: 'none' }}>2 BHK</label>
-                                </div>
+                            </div>
 
 
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck4" autoComplete="off"
-                                        checked={selectedBHK === "3 BHK"}
-                                        onChange={() => handleSelect("3 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck4" style={{ boxShadow: 'none' }}>3 BHK</label>
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>BHK Type</h6>
+
+                            <div className="container" style={{ marginTop: 15 }}>
+                                <div className="row g-2" >
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off"
+                                            checked={selectedBHK === "1 RK"}
+                                            onChange={() => handleSelect("1 RK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck1" style={{ boxShadow: 'none' }}>1 RK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
+                                            checked={selectedBHK === "1 BHK"}
+                                            onChange={() => handleSelect("1 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none' }}>1 BHK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck3" autoComplete="off"
+                                            checked={selectedBHK === "2 BHK"}
+                                            onChange={() => handleSelect("2 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck3" style={{ boxShadow: 'none' }}>2 BHK</label>
+                                    </div>
+
+
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck4" autoComplete="off"
+                                            checked={selectedBHK === "3 BHK"}
+                                            onChange={() => handleSelect("3 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck4" style={{ boxShadow: 'none' }}>3 BHK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck5" autoComplete="off"
+                                            checked={selectedBHK === "4 BHK"}
+                                            onChange={() => handleSelect("4 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck5" style={{ boxShadow: 'none' }}>4 BHK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck6" autoComplete="off"
+                                            checked={selectedBHK === "4+ BHK"}
+                                            onChange={() => handleSelect("4+ BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck6" style={{ boxShadow: 'none' }}>4+ BHK</label>
+                                    </div>
+                                    <div style={{ display: 'none' }}>
+                                        <div className="col-4">
+                                            <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
+                                                checked={selectedBHK === "All"}
+                                                onChange={() => handleSelect("All")} />
+                                            <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none', color: 'white' }}>All</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck5" autoComplete="off"
-                                        checked={selectedBHK === "4 BHK"}
-                                        onChange={() => handleSelect("4 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck5" style={{ boxShadow: 'none' }}>4 BHK</label>
-                                </div>
-                                {/* <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck6" autoComplete="off"
-                                        checked={selectedBHK === "4+ BHK"}
-                                        onChange={() => handleSelect("4+ BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck6" style={{ boxShadow: 'none' }}>4+ BHK</label>
-                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className='ss'>
-
-
 
                 </div>
 

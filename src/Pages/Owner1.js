@@ -24,7 +24,7 @@ export default function HomePage() {
 
 
       {/* Video Background */}
-      <div className="video-hero position-relative">
+      <div className="video-hero position-relative fade-slide">
         <video className="w-100 h-100 object-fit-cover" autoPlay muted loop>
           <source src={vid} type="video/mp4" />
         </video>
@@ -65,7 +65,7 @@ export default function HomePage() {
       </div>
 
       {/* Features Section */}
-      <div className="features-container">
+      <div className="features-container fade-slide">
         {[{
           icon: <FaHome style={{ color: "#ff6b6b" }} />,
           title: "Find Your Future Dream Home",

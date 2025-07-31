@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
+import './AboutUs.css';
 
 export default function AboutUs() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ background: "#f4f6f9", minHeight: "100vh", paddingTop: "40px", paddingBottom: "60px" }}>
+    <div style={{ background: "#f4f6f9", minHeight: "100vh", paddingTop: "40px", paddingBottom: "60px" }} className="fade-slide">
       <Container>
         {/* Back Button */}
         <div className="mb-3">

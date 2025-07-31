@@ -4,13 +4,13 @@ import "./Selling.css";
 const Selling = () => {
   return (
     <>
-      <div className='contanier'>
+      <div className='contanier fade-slide'>
         <h className='a' >Sell or Rent your Property for Free</h>
         <h className='b'>Looking for a Property?<a href='/Owner1' style={{ fontSize: '17px' }}>Click here!</a></h>
       </div>
 
 
-      <div className='container bg-tertiary'>
+      <div className='container bg-tertiary fade-slide'>
         <div className='d-flex justify-content-center'>
 
           <div className='card' style={{ width: 400, height: 500 }}>

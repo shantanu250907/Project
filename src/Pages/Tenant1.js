@@ -5,7 +5,6 @@ import { FaWhatsapp, FaInstagram, FaHome, FaStar, FaClipboardCheck } from 'react
 import vid from "./vid.mp4";
 import "./Owner1.css";
 import 'react-phone-input-2/lib/bootstrap.css';
-import MainLayout from "./MainLayout";
 import MainLayout1 from "./MainLayout1";
 
 
@@ -24,7 +23,7 @@ export default function HomePage() {
     <>
         <MainLayout1/>
       {/* Video Background */}
-      <div className="video-hero position-relative">
+      <div className="video-hero position-relative fade-slide">
         <video className="w-100 h-100 object-fit-cover" autoPlay muted loop>
           <source src={vid} type="video/mp4" />
         </video>

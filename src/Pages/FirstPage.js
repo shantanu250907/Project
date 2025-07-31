@@ -22,7 +22,7 @@ export default function FirstPage() {
   };
 
   return (
-    <div className="page-container">
+    <div className="page-container fade-slide">
       <header className="hero">
         <div className="overlay" />
         <div className="hero-content">

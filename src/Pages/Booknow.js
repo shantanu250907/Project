@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Row, Col, Alert } from 'react-bootstrap';
+import './Booknow.css';
 
 const BookNowForm = () => {
   
@@ -31,7 +32,7 @@ const BookNowForm = () => {
   };
 
   return (
-    <Container className="mt-5 mb-5 p-4 shadow rounded bg-light" style={{ maxWidth: '600px' }}>
+    <Container className="mt-5 mb-5 p-4 shadow rounded bg-light fade-slide" style={{ maxWidth: '600px' }}>
       <h3 className="mb-4 text-center">📅 Book Your Rental Property</h3>
 
       {submitted && (

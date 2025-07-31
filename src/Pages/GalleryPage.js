@@ -39,7 +39,7 @@ const properties = [
 
 export default function GalleryPage() {
   return (
-    <div className="gallery-container">
+    <div className="gallery-container fade-slide">
       <h2 className="gallery-title">🏘️ Property Gallery</h2>
       <div className="gallery-grid">
         {properties.map((property) => (

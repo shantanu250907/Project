@@ -32,7 +32,7 @@ export default function Feedback() {
   };
 
   return (
-    <div style={{ background: "linear-gradient(to right, #e0f7fa, #fffde7)", minHeight: "100vh", paddingTop: "50px" }}>
+    <div style={{ background: "linear-gradient(to right, #e0f7fa, #fffde7)", minHeight: "100vh", paddingTop: "50px" }} className="fade-slide">
       <Container style={{ maxWidth: "700px" }}>
         <Card className="shadow-lg rounded-4 p-4 border-0">
           <h2 className="text-center mb-1" style={{ fontWeight: "700" }}>💬 We'd love your Feedback!</h2>
@@ -49,7 +49,7 @@ export default function Feedback() {
               <Form.Label>Your Name</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="e.g., Shreya Varade"
+                placeholder="Enter your Name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
@@ -61,7 +61,7 @@ export default function Feedback() {
               <Form.Label>Email Address</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="e.g., shreya@email.com"
+                placeholder="Enter your Email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}

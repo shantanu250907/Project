@@ -11,9 +11,9 @@ const Search = () => {
     };
 
     const propertyData = {
-        "All":[
+        "All": [
             {
-                 id: 1,
+                id: 101,
                 title:
                     <label>1 RK Flat, In Sai Villa Apartment for Renttt
                         <br />
@@ -69,7 +69,7 @@ const Search = () => {
                     </>
             },
             {
-                id: 2,
+                id: 102,
                 title:
                     <label>1 BHK Flat, In Siddhhivinayak Apartment For Rent
                         <br />
@@ -120,8 +120,8 @@ const Search = () => {
                         </div>
                     </>
             },
-             {
-                id: 2.2,
+            {
+                id: 103,
                 title:
                     <label>1 BHK Flat, In Abhishek Apartment For Rent
                         <br />
@@ -172,8 +172,8 @@ const Search = () => {
                         </div>
                     </>
             },
-             {
-                id: 3.3,
+            {
+                id: 104,
                 title:
                     <label>2 BHK Flat, in Krishnapranit Apartment for Rent
                         <br />
@@ -224,8 +224,8 @@ const Search = () => {
                         </div>
                     </>
             },
-             {
-                id: 4.3,
+            {
+                id: 105,
                 title:
                     <label>3 BHK Flat, in Tulsi Aastha Apartment for Rent
                         <br />
@@ -258,6 +258,270 @@ const Search = () => {
                             </div>
                             <div>
                                 <div style={{ fontWeight: 'bold' }}>1300+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 106,
+                title:
+                    <label>4+ BHK Flat, in Vardhman Estate for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Vardhman Estate, Pathardi Phata, Pathardi Road, Near Zudio, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9f92848b981c7a018b987871992718/8a9f92848b981c7a018b987871992718_75906_25200_large.jpg",
+                    "https://images.nobroker.in/images/8a9f92848b981c7a018b987871992718/8a9f92848b981c7a018b987871992718_98216_463248_large.jpg",
+                    "https://images.nobroker.in/images/8a9f92848b981c7a018b987871992718/8a9f92848b981c7a018b987871992718_86571_913019_large.jpg",
+                    "https://images.nobroker.in/images/8a9f92848b981c7a018b987871992718/8a9f92848b981c7a018b987871992718_65370_772956_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹55,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹2,00,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1,600+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 107,
+                title:
+                    <label>1 RK Flat, Tirupati Apartment For Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Tirupati, Indira Nagar Cannel, Mumbai-Agra Highway, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9f8203901521ff0190154c34e712ca/8a9f8203901521ff0190154c34e712ca_84024_460192_large.jpg",
+                    "https://images.nobroker.in/images/8a9fb08283409b23018340f91dfd40df/8a9fb08283409b23018340f91dfd40df_436908_579196_large.jpg",
+                    "https://images.nobroker.in/images/8a9fb08283409b23018340f91dfd40df/8a9fb08283409b23018340f91dfd40df_651012_152603_large.jpg",
+                    "https://images.nobroker.in/images/8a9fb08283409b23018340f91dfd40df/8a9fb08283409b23018340f91dfd40df_540979_153457_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            marginRight: '1px',
+                            // width: '450px',
+                            justifyContent: 'space-between',
+                            // marginTop: '80px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '1px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd',
+                            // marginLeft: 'auto',
+                            height: '70px'
+                        }}>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold' }}>₹9,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold' }}>₹25,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div style={{ margin: '10px' }}>
+                                <div style={{ fontWeight: 'bold' }}>750 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 108,
+                title:
+                    <label>2 BHK Flat, in Laxmi Avenue for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Laxmi Avenue, Ashok Stambh, Near Vitthal Park, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9fc3828253b60a018254176ceb5e4d/8a9fc3828253b60a018254176ceb5e4d_90075_592862_medium.jpg",
+                    "https://images.nobroker.in/images/8a9f8b0393c4d6ca0193c51482fe165d/8a9f8b0393c4d6ca0193c51482fe165d_11783_203639_large.jpg",
+                    "https://images.nobroker.in/images/8a9f8b0393c4d6ca0193c51482fe165d/8a9f8b0393c4d6ca0193c51482fe165d_90730_45647_large.jpg",
+                    "https://images.nobroker.in/images/8a9f8b0393c4d6ca0193c51482fe165d/8a9f8b0393c4d6ca0193c51482fe165d_57892_511807_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹18,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹50,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1,000 sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 109,
+                title:
+                    <label>4 BHK Flat, in Prabhu City for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Prabhu City, Mumbai-Agra Road, Near Jatra Dhaba, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_30086_157726_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_647683_528588_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_112550_858450_large.jpg",
+                    "https://images.nobroker.in/images/8a9fbf828175a01101817609cd2a5e0f/8a9fbf828175a01101817609cd2a5e0f_810350_44902_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹55,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹2,20,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1600+ sqft</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
+                            </div>
+                        </div>
+                        <div style={{ textAlign: 'left', marginTop: '15px' }}>
+                            <Link to='/Booknow' >
+                                <button style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 20px',
+                                    borderRadius: '5px',
+                                    cursor: 'pointer'
+                                }}>
+                                    Book Now !
+                                </button></Link>
+                        </div>
+                    </>
+            },
+            {
+                id: 110,
+                title:
+                    <label>3 BHK Flat, in Sharada Nikentan Apartment for Rent
+                        <br />
+                        <h6 style={{ marginTop: '12px', color: 'grey', fontSize: '15px' }}>Sharda Nikentan, Rajiv Nagar, Bhagwati Chowk, Nashik</h6>
+                    </label>,
+                images: [
+                    "https://images.nobroker.in/images/8a9fbd827d7ae717017d7af0669003b7/8a9fbd827d7ae717017d7af0669003b7_171886_58314_large.jpg",
+                    "https://images.nobroker.in/images/8a9fe3828611c708018611e217550fcb/8a9fe3828611c708018611e217550fcb_65177_665682_large.jpg",
+                    "https://images.nobroker.in/images/8a9fe3828611c708018611e217550fcb/8a9fe3828611c708018611e217550fcb_85326_536545_large.jpg",
+                    "https://images.nobroker.in/images/8a9fe3828611c708018611e217550fcb/8a9fe3828611c708018611e217550fcb_761257_797635_large.jpg",
+                ],
+                description:
+                    <>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                            backgroundColor: '#f9f9f9',
+                            padding: '15px',
+                            borderRadius: '8px',
+                            border: '1px solid #ddd'
+                        }}>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹32,000 <span style={{ color: '#007bff', fontSize: '12px' }}>+ Included</span></div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Rent</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>₹1,30,000</div>
+                                <div style={{ fontSize: '12px', color: '#666' }}>Deposit</div>
+                            </div>
+                            <div>
+                                <div style={{ fontWeight: 'bold' }}>1200+ sqft</div>
                                 <div style={{ fontSize: '12px', color: '#666' }}>Builtup</div>
                             </div>
                         </div>
@@ -360,7 +624,6 @@ const Search = () => {
                             padding: '1px',
                             borderRadius: '8px',
                             border: '1px solid #ddd',
-                            // marginLeft: 'auto',
                             height: '70px'
                         }}>
                             <div style={{ margin: '10px' }}>
@@ -384,7 +647,7 @@ const Search = () => {
                                     border: 'none',
                                     padding: '10px 20px',
                                     borderRadius: '5px',
-                                    cursor: 'pointer'
+                                    cursor: 'pointer',
                                 }}>
                                     Book Now !
                                 </button></Link>
@@ -2837,137 +3100,153 @@ const Search = () => {
 
     return (
         <>
-            <div className="cc" style={{ display: 'flex', backgroundColor: '#F2F2F2', padding: '20px' }}>
-                <div className="card 0" style={{ width: 400, height: 550, minWidth: 400, minHeight: 550, maxWidth: 400, maxHeight: 550, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed', marginTop: '15px' }}>
-                    <div className="card-body">
-                        <h6 style={{ marginTop: 1, fontFamily: "sans-serif" }}>Preferred Type</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault"
-                            /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
-                                Family
-                            </label>
-                            &nbsp;&nbsp;
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style={{ marginLeft: 75 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
-                                Commercial
-                            </label>
-                        </div>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Bachelor Male
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 30 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Bachelor Female
-                            </label>
-                        </div>
-
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Property Type</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Apartment
-                            </label>
-                        </div>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Independent House/Villa
-                            </label>
-                        </div>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Gated Community Villa
-                            </label>
-                        </div>
-
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Furnishing</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Full
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                Semi
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
-                            <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
-                                None
-                            </label>
-                        </div>
-
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Availability</h6>
-                        <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                            <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
-                                Immediate
-                            </label>
-                            <div class="form-check" style={{ marginLeft: '30px' }}>
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
-                                <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
-                                    Within 15 Days
+            <div className="cc fade-slide" style={{ display: 'flex', backgroundColor: '#F2F2F2', padding: '20px' }}>
+                <div className="card 0" style={{ width: 400, height: 550, minWidth: 400, minHeight: 550, maxWidth: 400, maxHeight: 550, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed', marginTop: '10px' }}>
+                    <div className='scroll' style={{ height: '100%', overflowY: 'auto', paddingRight: '10px' }}>
+                        <div className="card-body">
+                            <h6 style={{ marginTop: 1, fontFamily: "sans-serif" }}>Preferred Type</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault"
+                                /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
+                                    Family
+                                </label>
+                                &nbsp;&nbsp;
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style={{ marginLeft: 75 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckDefault" style={{ color: 'grey' }}>
+                                    Commercial
                                 </label>
                             </div>
-                        </div>
-                        
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Bachelor Male
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 30 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Bachelor Female
+                                </label>
+                            </div>
 
-                        <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>BHK Type</h6>
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Property Type</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Apartment
+                                </label>
+                            </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Independent House/Villa
+                                </label>
+                            </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Gated Community Villa
+                                </label>
+                            </div>
 
-                        <div className="container" style={{ marginTop: 15 }}>
-                            <div className="row g-2" >
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
-                                        checked={selectedBHK === "All"}
-                                        onChange={() => handleSelect("All")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none' }}>All</label>
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Furnishing</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Full
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    Semi
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" style={{ marginLeft: 50 }} /> &nbsp; &nbsp;
+                                <label class="form-check-label" for="flexCheckChecked" style={{ color: 'grey' }}>
+                                    None
+                                </label>
+                            </div>
+
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>Availability</h6>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
+                                    Immediate
+                                </label>
+                                <div class="form-check" style={{ marginLeft: '61px' }}>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                    <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
+                                        Within 15 Days
+                                    </label>
                                 </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off"
-                                        checked={selectedBHK === "1 RK"}
-                                        onChange={() => handleSelect("1 RK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck1" style={{ boxShadow: 'none' }}>1 RK</label>
+                            </div>
+                            <div class="form-check" style={{ display: 'flex', marginTop: 10 }}>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                <label class="form-check-label" for="flexRadioDefault1" style={{ color: 'grey' }}>
+                                     Within 30 Days
+                                </label>
+                                <div class="form-check" style={{ marginLeft: '30px' }}>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                    <label class="form-check-label" for="flexRadioDefault2" style={{ color: 'grey' }}>
+                                        After 30 Days
+                                    </label>
                                 </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
-                                        checked={selectedBHK === "1 BHK"}
-                                        onChange={() => handleSelect("1 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none' }}>1 BHK</label>
-                                </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck3" autoComplete="off"
-                                        checked={selectedBHK === "2 BHK"}
-                                        onChange={() => handleSelect("2 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck3" style={{ boxShadow: 'none' }}>2 BHK</label>
-                                </div>
+                            </div>
 
 
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck4" autoComplete="off"
-                                        checked={selectedBHK === "3 BHK"}
-                                        onChange={() => handleSelect("3 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck4" style={{ boxShadow: 'none' }}>3 BHK</label>
-                                </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck5" autoComplete="off"
-                                        checked={selectedBHK === "4 BHK"}
-                                        onChange={() => handleSelect("4 BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck5" style={{ boxShadow: 'none' }}>4 BHK</label>
-                                </div>
-                                <div className="col-4">
-                                    <input type="checkbox" className="btn-check" id="btncheck6" autoComplete="off"
-                                        checked={selectedBHK === "4+ BHK"}
-                                        onChange={() => handleSelect("4+ BHK")} />
-                                    <label className="btn btn-outline-primary w-100" htmlFor="btncheck6" style={{ boxShadow: 'none' }}>4+ BHK</label>
+                            <h6 style={{ marginTop: 20, fontFamily: "sans-serif" }}>BHK Type</h6>
+
+                            <div className="container" style={{ marginTop: 15 }}>
+                                <div className="row g-2" >
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off"
+                                            checked={selectedBHK === "1 RK"}
+                                            onChange={() => handleSelect("1 RK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck1" style={{ boxShadow: 'none' }}>1 RK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
+                                            checked={selectedBHK === "1 BHK"}
+                                            onChange={() => handleSelect("1 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none' }}>1 BHK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck3" autoComplete="off"
+                                            checked={selectedBHK === "2 BHK"}
+                                            onChange={() => handleSelect("2 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck3" style={{ boxShadow: 'none' }}>2 BHK</label>
+                                    </div>
+
+
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck4" autoComplete="off"
+                                            checked={selectedBHK === "3 BHK"}
+                                            onChange={() => handleSelect("3 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck4" style={{ boxShadow: 'none' }}>3 BHK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck5" autoComplete="off"
+                                            checked={selectedBHK === "4 BHK"}
+                                            onChange={() => handleSelect("4 BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck5" style={{ boxShadow: 'none' }}>4 BHK</label>
+                                    </div>
+                                    <div className="col-4">
+                                        <input type="checkbox" className="btn-check" id="btncheck6" autoComplete="off"
+                                            checked={selectedBHK === "4+ BHK"}
+                                            onChange={() => handleSelect("4+ BHK")} />
+                                        <label className="btn btn-outline-primary w-100" htmlFor="btncheck6" style={{ boxShadow: 'none' }}>4+ BHK</label>
+                                    </div>
+                                    <div style={{ display: 'none' }}>
+                                        <div className="col-4">
+                                            <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off"
+                                                checked={selectedBHK === "All"}
+                                                onChange={() => handleSelect("All")} />
+                                            <label className="btn btn-outline-primary w-100" htmlFor="btncheck2" style={{ boxShadow: 'none', color: 'white' }}>All</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+
                 <div className='ss'>
 
                 </div>
