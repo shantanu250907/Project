@@ -3,6 +3,7 @@ import './Search.css';
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Searchm.css';
 
 const Searchm = () => {
     const [selectedBHK, setSelectedBHK] = useState('All');
@@ -3043,7 +3044,7 @@ const Searchm = () => {
 
     return (
         <>
-            <div className="cc" style={{ display: 'flex', backgroundColor: '#F2F2F2', padding: '20px' }}>
+            <div className="cc fade-slide" style={{ display: 'flex', backgroundColor: '#F2F2F2', padding: '20px' }}>
                 <div className="card 0" style={{ width: 400, height: 550, minWidth: 400, minHeight: 550, maxWidth: 400, maxHeight: 550, overflow: 'hidden', boxSizing: 'border-box', backgroundColor: 'white', position: 'fixed', marginTop: '10px' }}>
                     <div className='scroll' style={{ height: '100%', overflowY: 'auto', paddingRight: '10px' }}>
                         <div className="card-body">

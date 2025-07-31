@@ -26,6 +26,7 @@ import DashboardLayout from './DashboardProject/DashboardLayout';
 import MainLayout from './Pages/MainLayout'; // ✅ Your layout with both navbars
 import HouseListing from './Pages/HouseListing';
 import Searchm from './Pages/Searchm';
+import './Pages/Searchm.css';
 import Tenant1 from './Pages/Tenant1';
 import Booknow from './Pages/Booknow';
 import './Pages/Selling.css';
