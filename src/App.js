@@ -28,8 +28,10 @@ import Searchh from './Pages/Searchh';
 import Searchm from './Pages/Searchm';
 import Tenant1 from './Pages/Tenant1';
 import Booknow from './Pages/Booknow';
-
 import './Pages/Selling.css';
+import Footer from './Pages/Footer';
+import ContactUs from './Pages/ContactUs';
+// import Maintenance1 from './Pages/Maintenance1';
 
 
 function App() {
@@ -56,6 +58,7 @@ function App() {
            <Route path="/Searchh" element={<Searchh/>} />
             <Route path="/Searchm" element={<Searchm />} />
             <Route path="/Booknow" element={<Booknow />} />
+            <Route path="/ContactUs" element={<ContactUs/>} />
             
         </Route>
           <Route path="/Tenant1" element={<Tenant1/>}/>
@@ -74,10 +77,13 @@ function App() {
         </Route>
 
         {/* 🔁 Default redirect */}
+        
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     {/* </BrowserRouter> */}
     </AnimatePresence>
+    
   );
 }
 
