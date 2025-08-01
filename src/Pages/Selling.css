@@ -1,13 +1,16 @@
 .contanier {
     margin-left: 170px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
-
+.body{
+    background-color: #ff2929;
+}
 
 .a {
     font-size: 30px;
-   
+    text-Shadow: 0 1px 5px rgb(148, 147, 147);
 }
 
 .b {
@@ -18,7 +21,9 @@
     background: rgb(250, 250, 250);
     border-radius: 3px;
     height: 200px;
+    text-Shadow: 0 1px 5px rgb(148, 147, 147);
 }
+
 
 .c {
     margin-left: 470px;

@@ -6,7 +6,7 @@ const Selling = () => {
     <>
       <div className='contanier fade-slide'>
         <h className='a' >Sell or Rent your Property for Free</h>
-        <h className='b'>Looking for a Property?<a href='/Owner1' style={{ fontSize: '17px' }}>Click here!</a></h>
+        <h className='b'>Looking for a Property? <a href='/Owner1' style={{ fontSize: '17px' }}>Click here!</a></h>
       </div>
 
 
@@ -55,7 +55,7 @@ const Selling = () => {
           <div className='card' style={{ width: 900, height: 500 }}>
             <div className='card-body'>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type='text' id='name' name='name' placeholder=' Name' style={{ marginTop: 20, width: 350, height: 40, marginRight: 60 }} />
+              <input type='text' id='name' name='name' placeholder=' Name' style={{ marginTop: 20, width: 350, height: 40, marginRight: 60}} />
               <input type='email' id='email' name='email' placeholder=' Email' style={{ marginTop: 20, width: 350, height: 40 }} />
 
 

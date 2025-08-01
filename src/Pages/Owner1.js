@@ -56,8 +56,8 @@ export default function HomePage() {
           </Row>
 
           {/* ✅ Property Owner Link Below Search */}
-          <div className="mt-4" >
-            <Link to='/sell' className="text-white text-decoration-none fs-5" style={{ fontWeight: "lighter", fontSize: '2rem' }}>
+          <div className="mt-4 " >
+            <Link to='/sell' className="text-white text-decoration-none fs-5 hh" style={{ fontWeight: "lighter", fontSize: '2rem' }}>
               ------ Are you a Property Owner ? ------
             </Link>
           </div>
