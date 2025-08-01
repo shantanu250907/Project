@@ -112,10 +112,10 @@ export default function MainLayout() {
                 Tenant
               </Button>
 
-              <Button size="sm" onClick={() => setShowLogin(true)} style={{ boxShadow: 'none' }}>
+              <Button size="sm" onClick={() => setShowLogin(true)} variant="danger" style={{ boxShadow: 'none' }}>
                 Login
               </Button>
-              <Button size="sm" onClick={() => setShowSignup(true)} style={{ boxShadow: 'none' }}>
+              <Button size="sm" onClick={() => setShowSignup(true)} variant="danger" style={{ boxShadow: 'none' }}>
                 Sign Up
               </Button>
               <NavDropdown title="Menu">
