@@ -1,0 +1,170 @@
+.lm-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Hero */
+.lm-hero {
+  background: url('https://source.unsplash.com/1600x900/?modern-home,interior') center/cover no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.lm-hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  animation: lm-fadeIn 1.5s ease;
+}
+
+.lm-hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.lm-hero-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.lm-btn-primary {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lm-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.lm-btn-secondary {
+  background: #fff;
+  color: #007bff;
+  padding: 8px 20px;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lm-btn-secondary:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* Benefits */
+.lm-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.lm-benefit-card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.lm-benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.lm-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.lm-green { color: #28a745; }
+.lm-blue { color: #007bff; }
+.lm-purple { color: #6f42c1; }
+.lm-orange { color: #fd7e14; }
+
+/* Listings */
+.lm-listings {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.lm-listings h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.lm-listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.lm-listing-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.lm-listing-card:hover {
+  transform: translateY(-5px);
+}
+
+.lm-listing-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.lm-listing-info {
+  padding: 15px;
+}
+
+/* How It Works */
+.lm-how {
+  padding: 50px 20px;
+  background: #f0f8ff;
+  text-align: center;
+}
+
+.lm-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.1rem;
+}
+
+/* CTA */
+.lm-cta {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+}
+
+.lm-cta h2 {
+  margin-bottom: 20px;
+}
+
+/* Animation */
+@keyframes lm-fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

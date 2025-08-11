@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { Routes, Route,useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { Navigate } from 'react-router-dom';
 
@@ -30,7 +30,21 @@ import './Pages/Searchm.css';
 import Tenant1 from './Pages/Tenant1';
 import Booknow from './Pages/Booknow';
 import './Pages/Selling.css';
+import CartPage from './Pages/CartPage';
+import './Pages/CartPage.css';
+import CartContext from './Pages/CartContext';
 import './Pages/Booknow.css';
+import wishlist from './Pages/Wishlist.js';
+import './Pages/WishList.css';
+import Sellingt from './Pages/Sellingt.js';
+import ContactUs from './Pages/ContactUs';
+import Wishlist from './Pages/Wishlist.js';
+import MainLayout1 from './Pages/MainLayout1.js';
+// import Maintenance1 from './Pages/Maintenance1';
+import Faq from './Pages/Faq.js';
+import PrivacyPolicy from './Pages/Privacy.js';
+import Learn from './Pages/Learn.js';
+import Cards from './Pages/Cards.js';
 
 
 function App() {
@@ -41,7 +55,7 @@ function App() {
   return (
     // <BrowserRouter>
     <AnimatePresence mode="wait">
-      <Routes  location={location} key={location.pathname}>
+      <Routes location={location} key={location.pathname}>
         {/* 🏠 FirstPage (Landing Page) without Navbar */}
         <Route path="/" element={<FirstPage />} />
 
@@ -54,11 +68,22 @@ function App() {
           <Route path="/Search" element={<Search />} />
           <Route path="/sell" element={<Selling />} />
           <Route path="/Welcome" element={<Dashboard />} />
-            <Route path="/Searchm" element={<Searchm />} />
-            <Route path="/Booknow" element={<Booknow />} />
-            
+          <Route path="/CartPage" element={<CartPage />} />
+          <Route path="/CartContext" element={<CartContext />} />
+          <Route path="/Wishlist" element={<Wishlist />} />
+          <Route path="/Searchm" element={<Searchm />} />
+          <Route path="/Booknow" element={<Booknow />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Faq" element={<Faq />} />
+          <Route path="/Privacy" element={<PrivacyPolicy />} />
+          <Route path="/Learn" element={<Learn />} />
+          <Route path="/cards" element={<Cards/>} />
         </Route>
-          <Route path="/Tenant1" element={<Tenant1/>}/>
+
+        <Route element={<MainLayout1 setShowLogin={setShowLogin} setShowSignup={setShowSignup} />}>
+          <Route path="/Tenant1" element={<Tenant1 />} />
+          <Route path="/Sellingt" element={<Sellingt />} />
+        </Route>
         {/* 📊 Dashboard Routes with Sidebar */}
         <Route element={<DashboardLayout />}>
           <Route path="/dashboard" element={<DashboardHome />} />
@@ -74,10 +99,13 @@ function App() {
         </Route>
 
         {/* 🔁 Default redirect */}
+
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    {/* </BrowserRouter> */}
+
+      {/* </BrowserRouter> */}
     </AnimatePresence>
+
   );
 }
 

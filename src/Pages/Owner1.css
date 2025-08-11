@@ -97,7 +97,7 @@
 }
 
 .feature-card {
-  background: rgba(174, 236, 175, 0.537);
+  background: rgba(123, 162, 124, 0.537);
   border-radius: 15px;
   padding: 20px 10px;
   width: 400px;
@@ -155,4 +155,36 @@ footer a:hover {
 
 .fade-slide {
   animation: fadeSlide 0.8s ease forwards;
+}
+.flash-card {
+  position: relative;
+  overflow: hidden; /* important to hide the overflow of the flash */
+}
+
+.flash-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: flashMove 2.5s infinite;
+}
+
+@keyframes flashMove {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
 }

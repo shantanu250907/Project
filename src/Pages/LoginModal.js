@@ -1,14 +1,28 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 export default function LoginModal({ show, handleClose }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate(); // <-- this is needed for navigation
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    console.log("Login with", email, password);
-    handleClose();
+    try {
+      const response = await axios.post('http://localhost:5000/register12', {
+        email,
+        password,
+      });
+      console.log('Response:', response.data);
+      alert('Login Successful');
+      handleClose(); // Close modal
+      navigate('/dashboard'); // <-- navigate after login
+    } catch (error) {
+      console.error('Error:', error);
+      alert('error'+error.message);
+    }
   };
 
   return (
@@ -20,18 +34,40 @@ export default function LoginModal({ show, handleClose }) {
         <Modal.Body>
           <Form.Group controlId="loginEmail" className="mb-3">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+            <Form.Control
+            id='email'
+            name='email'
+              type="email"
+              placeholder="Enter email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </Form.Group>
           <Form.Group controlId="loginPassword" className="mb-3">
             <Form.Label>Password</Form.Label>
-            <Form.Control type="password" placeholder="Password" required value={password} onChange={(e) => setPassword(e.target.value)} />
+            <Form.Control
+              id='password'
+              name='password'
+              type="password"
+              placeholder="Password"
+              required
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
           </Form.Group>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>Close</Button>
-          <Button variant="primary" type="submit">Login</Button>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" type="submit">
+            Login
+          </Button>
         </Modal.Footer>
       </Form>
     </Modal>
   );
 }
+
+

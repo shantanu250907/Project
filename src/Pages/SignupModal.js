@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 
+import axios from 'axios';
+
+  
+
 export default function SignupModal({ show, handleClose }) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -11,6 +15,10 @@ export default function SignupModal({ show, handleClose }) {
     console.log("Sign up with", name, email, password);
     handleClose();
   };
+  function Login() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
 
   return (
     <Modal show={show} onHide={handleClose} centered className='fade-slide'>
@@ -39,4 +47,5 @@ export default function SignupModal({ show, handleClose }) {
       </Form>
     </Modal>
   );
+};
 }

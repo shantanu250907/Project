@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate, Link } from "react-router-dom";
 import { Container, Button, Form, InputGroup, FormControl, Row, Col } from "react-bootstrap";
-import { FaWhatsapp, FaInstagram, FaHome, FaStar, FaClipboardCheck } from 'react-icons/fa';
+import {  FaHome, FaStar, FaClipboardCheck } from 'react-icons/fa';
 
 import vid from "./vid.mp4";
 import "./Owner1.css";
 import 'react-phone-input-2/lib/bootstrap.css';
+import Footer from "./Footer";
+import { icons } from "lucide-react";
 
 
 export default function HomePage() {
@@ -22,7 +24,7 @@ export default function HomePage() {
   return (
     <>
 
-
+  
       {/* Video Background */}
       <div className="video-hero position-relative fade-slide">
         <video className="w-100 h-100 object-fit-cover" autoPlay muted loop>
@@ -30,7 +32,7 @@ export default function HomePage() {
         </video>
         <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
         <Container className="hero-content position-absolute top-50 start-50 translate-middle text-center text-white px-3">
-          <h1 className="dd">Find Your Future Dream Home</h1>
+          <h1 className="dd ">Find Your Future Dream Home</h1>
           <div className="d-flex justify-content-center mb-3">
             <Button className="btn-danger me-2">Buy</Button>
             <Button className="btn-danger">Rent</Button>
@@ -65,9 +67,9 @@ export default function HomePage() {
       </div>
 
       {/* Features Section */}
-      <div className="features-container fade-slide">
+      <div className="features-container fade-slide flash-card ">
         {[{
-          icon: <FaHome style={{ color: "#ff6b6b" }} />,
+          icon: <FaHome style={{ color: "#ff6b6b"}} />,
           title: "Find Your Future Dream Home",
           desc: "Browse verified listings with detailed info & flexible rent plans."
         }, {
@@ -83,55 +85,12 @@ export default function HomePage() {
             <div className="icon-wrapper">{f.icon}</div>
             <h5>{f.title}</h5>
             <p>{f.desc}</p>
-            <a href="#explore" className="learn-more">Learn more →</a>
+            <Link to='/Learn' className="learn-more">Learn more →</Link>
           </div>
         ))}
       </div>
-
-      {/* Footer */}
-      <footer className="bg-dark text-light pt-5 pb-4 mt-5">
-        <Container>
-          <Row className="mb-4 g-4">
-            <Col sm={3}>
-              <h5 className="mb-3">🏠 Owner</h5>
-              <p>Your trusted house rental partner</p>
-              <Form className="d-flex">
-                <FormControl type="email" placeholder="Subscribe for updates" />
-                <Button variant="success" className="ms-2">Go</Button>
-              </Form>
-            </Col>
-            <Col sm={3}>
-              <h5 className="mb-3">Quick Links</h5>
-              <ul className="list-unstyled">
-                <li><NavLink to="/aboutus" className="text-light">About Us</NavLink></li>
-                <li><NavLink to="/faq" className="text-light">FAQ</NavLink></li>
-                <li><NavLink to="/privacy" className="text-light">Privacy Policy</NavLink></li>
-                <li><NavLink to="/sitemap" className="text-light">Sitemap</NavLink></li>
-              </ul>
-            </Col>
-            <Col sm={3}>
-              <h5 className="mb-3">Contact</h5>
-              <p>Email: <a href="mailto:support@owner.com" className="text-light">support@owner.com</a></p>
-              <p>Phone: <a href="tel:+911234567890" className="text-light">+91‑12345‑67890</a></p>
-              <p>Address: Nashik, Maharashtra</p>
-            </Col>
-            <Col sm={3} className="d-flex flex-column align-items-start">
-              <h5 className="mb-3">Connect</h5>
-              <div className="mb-3">
-                <a href="https://wa.me/..." className="text-success me-3 hover-up"><FaWhatsapp size={28} /></a>
-                <a href="https://instagram.com/..." className="text-danger hover-up"><FaInstagram size={28} /></a>
-              </div>
-              <Button variant="outline-light" size="sm" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>↑ Back to top</Button>
-            </Col>
-          </Row>
-          <hr className="border-secondary" />
-          <Row>
-            <Col className="text-center">
-              <small>© 2025 Online House Rental System. All rights reserved.</small>
-            </Col>
-          </Row>
-        </Container>
-      </footer>
+        <Footer/>
+     
     </>
   );
 }

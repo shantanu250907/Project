@@ -1,0 +1,37 @@
+.wishlist-container {
+  padding: 20px;
+}
+
+.wishlist-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.wishlist-item-image {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.wishlist-item-details {
+  flex-grow: 1;
+}
+
+.wishlist-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.empty-wishlist {
+  text-align: center;
+  margin-top: 50px;
+}

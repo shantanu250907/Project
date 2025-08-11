@@ -1,0 +1,41 @@
+/* ContactUs.css */
+
+.contact-section {
+  min-height: 100vh;
+  padding: 60px 0;
+  background: linear-gradient(to right, #f1f3f6, #e6f0ff);
+}
+
+.contact-container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.contact-card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.contact-card .form-control {
+  border-radius: 10px;
+  box-shadow: none;
+  transition: border 0.3s;
+}
+
+.contact-card .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.contact-info {
+  padding-left: 30px;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-info h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}

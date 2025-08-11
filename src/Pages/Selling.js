@@ -100,11 +100,6 @@ const Selling = () => {
           </div>
         </div>
       </div>
-
-
-
-
-
     </>
   )
 }

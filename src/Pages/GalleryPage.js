@@ -5,35 +5,63 @@ import "./GalleryPage.css"; // CSS file for styling
 const properties = [
   {
   id: 1,
-  title: "Modern 2BHK Apartment",
-  location: "Mumbai",
+  title: "1 RK Flat, In Sai Villa Apartment for Renttt ",
+  location: "Nashik",
   description: "A spacious and well-lit 2BHK apartment located in a prime area of Mumbai. Features include a sea-facing balcony, modular kitchen, two bathrooms, and nearby access to schools, markets, and transport.",
-  image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+  image: "https://images.nobroker.in/images/8a9fa28497e86b4b0197e8fa25ea4015/8a9fa28497e86b4b0197e8fa25ea4015_62427_831677_medium.jpg",
 },
 
   {
   id: 2,
-  title: "Cozy Studio Flat",
-  location: "Pune",
+  title: "1 BHK Flat, In Siddhhivinayak Apartment For Rent",
+  location: "Nashik",
   description: "Ideal for working professionals, this compact studio features a smart layout, work desk, modern kitchen setup, and is close to tech parks and cafes.",
-  image: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd9?auto=format&fit=crop&w=800&q=80",
+  image: "https://images.nobroker.in/images/8a9fa2849823a43c019823b795f90390/8a9fa2849823a43c019823b795f90390_69980_379772_large.jpg",
 },
 
   {
   id: 3,
-  title: "3BHK Family Home",
+  title: " BHK Flat, In Abhishek Apartment For Rent",
   location: "Nashik",
   description: "Perfect for families, this 3BHK offers a calm neighborhood, garden space, three spacious bedrooms, and parking area for two vehicles.",
-  image: "https://images.unsplash.com/photo-1586105251261-72a756497a12?auto=format&fit=crop&w=800&q=80",
-},
+  image:"https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_16552_262615_large.jpg", },
 
   {
   id: 4,
-  title: "Luxury Villa",
-  location: "Lonavala",
+  title: "2 BHK Flat, in Krishnapranit Apartment for Rent",
+  location: "Nashik",
   description: "A premium villa surrounded by nature, featuring a private pool, outdoor seating, garden space, and beautiful hill views. Ideal for weekend getaways and family retreats.",
-  image: "https://images.unsplash.com/photo-1600585153930-879e38e36da8?auto=format&fit=crop&w=800&q=80",
+  image: "https://images.nobroker.in/images/8a9f9187980d8f5c01980dc8e2ad18a8/8a9f9187980d8f5c01980dc8e2ad18a8_96223_718539_medium.jpg",},
+{
+  id: 5,
+  title: "1 RK Flat, In Sai Villa Apartment for Renttt ",
+  location: "Nashik",
+  description: "A spacious and well-lit 2BHK apartment located in a prime area of Mumbai. Features include a sea-facing balcony, modular kitchen, two bathrooms, and nearby access to schools, markets, and transport.",
+  image: "https://images.nobroker.in/images/8a9fa28497e86b4b0197e8fa25ea4015/8a9fa28497e86b4b0197e8fa25ea4015_62427_831677_medium.jpg",
 },
+
+  {
+  id: 6,
+  title: "1 BHK Flat, In Siddhhivinayak Apartment For Rent",
+  location: "Nashik",
+  description: "Ideal for working professionals, this compact studio features a smart layout, work desk, modern kitchen setup, and is close to tech parks and cafes.",
+  image: "https://images.nobroker.in/images/8a9fa2849823a43c019823b795f90390/8a9fa2849823a43c019823b795f90390_69980_379772_large.jpg",
+},
+
+  {
+  id: 7,
+  title: " BHK Flat, In Abhishek Apartment For Rent",
+  location: "Nashik",
+  description: "Perfect for families, this 3BHK offers a calm neighborhood, garden space, three spacious bedrooms, and parking area for two vehicles.",
+  image:"https://images.nobroker.in/images/ff80818164e0ee580164e1c37ba757d0/ff80818164e0ee580164e1c37ba757d0_16552_262615_large.jpg", },
+
+  {
+  id: 8,
+  title: "2 BHK Flat, in Krishnapranit Apartment for Rent",
+  location: "Nashik",
+  description: "A premium villa surrounded by nature, featuring a private pool, outdoor seating, garden space, and beautiful hill views. Ideal for weekend getaways and family retreats.",
+  image: "https://images.nobroker.in/images/8a9f9187980d8f5c01980dc8e2ad18a8/8a9f9187980d8f5c01980dc8e2ad18a8_96223_718539_medium.jpg",},
+
 
 ];
 
@@ -43,7 +71,7 @@ export default function GalleryPage() {
       <h2 className="gallery-title">🏘️ Property Gallery</h2>
       <div className="gallery-grid">
         {properties.map((property) => (
-          <div className="gallery-card" key={property.id}>
+          <div className="gallery-card " key={property.id}>
             <img src={property.image} alt={property.title} className="gallery-image" />
             <div className="gallery-content">
               <h3>{property.title}</h3>
